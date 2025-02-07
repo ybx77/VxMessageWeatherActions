@@ -85,7 +85,7 @@ public class MainConfig {
      * 1：只展示一种，优先展示纪念日
      * 2：全部展示
      */
-    public static Integer otherInfoMode = 1;
+    public static Integer otherInfoMode = 2;
 
     public static List<WeatherOtherInfo>  weatherOtherInfos = new ArrayList<>();
 

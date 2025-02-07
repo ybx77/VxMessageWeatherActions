@@ -39,26 +39,28 @@ public class WechatConfig {
     static {
         userList.add(getUser(
                 "om3JP7HEXid6DudmatY8o9gTqs_o", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "DdXU5_Twx-E6uYP6TZHTdjOwVbZqxVv9N59_OdlhpvY", //要给这个人发送的模板ID
+                "IAcXb4ADlxiBDv_FhzezRyoNZxy0o6zrguCfJTWOlnQ", //要给这个人发送的模板ID
                 "十一", //咋称呼这个人
                 "河北省保定市蠡县", //这个人的详细地址
                 "蠡县", //这个人在的城市
                 new BirthDay(2003,5,12,true,false,"十一生日快乐！！"),
                 new BirthDay(2002,10,03,false,false,"生日快乐哦~~"),
-                new BirthDay(2023,8,30,true,true),
-                new BirthDay(2023,8,30,true,false,"周年快乐！！！")
+
+                new BirthDay(2023,8,30,false,false,"周年快乐！！！"),
+                new BirthDay(2023,8,30,false,true)
+
         ));
 
         userList.add(getUser(
                 "om3JP7AEt1P3XpiRUI710a-AjwpY",
-                "DdXU5_Twx-E6uYP6TZHTdjOwVbZqxVv9N59_OdlhpvY",
+                "IAcXb4ADlxiBDv_FhzezRyoNZxy0o6zrguCfJTWOlnQ",
                 "十九",
                 "河北省保定市定州市",
                 "定州市",
                 new BirthDay(2003,5,12,true,false,"十一生日快乐！！"),
                 new BirthDay(2002,10,03,false,false,"生日快乐哦~~"),
-                new BirthDay(2023,8,30,true,true),
-                new BirthDay(2023,8,30,true,false,"周年快乐！！！")
+                new BirthDay(2023,8,30,false,false,"周年快乐！！！"),
+                new BirthDay(2023,8,30,false,true)
         ));
 
 
